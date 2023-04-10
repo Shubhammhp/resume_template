@@ -1,0 +1,671 @@
+#nav{
+    margin-top:0%;
+    text-align: center;
+    
+}
+
+
+#nav li a:hover{
+    /* text-decoration: underline; */
+    color: red ;
+    
+}
+#nav li {
+    
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem;
+    margin-left: 0.7rem;
+    margin-top: 2.5%;
+}
+
+#nav li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#background-image{
+    height: 36vh;
+    width:auto;
+    margin: -15px;
+    background-image: url(./white_OP.jpg);
+    background-position:40% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-attachment: fixed; */
+    /* opacity: .8; */
+    
+
+}
+
+#name{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top:5rem;
+    color:black;
+    letter-spacing: .5rem;
+    /* margin-bottom: 1.7rem; */
+    /* margin-left: 122px; */
+}
+
+#social{
+    display: inline-block;
+    margin-left: 38%;
+    margin-top: .4%;
+    color: black;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#social li {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+}
+
+#social li:hover{
+    border-color: black;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 1px red;
+}
+
+#image:hover{
+    box-shadow: 1px 1px 7px 1px red;
+}
+
+
+
+
+/* Header is Completed ---------------------------------------------------------------------------------------------------- */
+
+
+#image{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 1.10%;
+    margin-left: 47%;
+    background-image: url(./DSC0190.jpg);
+    background-size: contain;
+    border-width: 1.25px;
+    border-color: rgb(1, 37, 48);
+    /* background-attachment: fixed; */
+
+}
+#Intro{
+    height: 35vh;
+    width: 100vw;
+    border-top: 1px dashed rgb(0, 0, 0);
+    margin-top: .8%;
+    margin-left: -10px;
+    background-color: rgb(226, 247, 233);
+    
+}
+
+#introPara{
+    height: 250px;
+    width: 1000px;
+    font-size: 22px;
+    text-align: center;
+    /* text-orientation: sideways-right; */
+    /* color: rgb(76, 62, 62); */
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25%;
+    /* margin-bottom: 40px; */
+    margin-top: 7% ;
+    /* border: 2px solid black; */
+    /* margin-top: 50px; */
+   
+    
+}
+
+
+/* --------------------SKILLS --------------------------------------------------------------------------------------- */
+
+
+#Skills{
+        height: 36vh;
+        width: auto;
+        margin-left: -1%;
+        margin-right: -1%;
+        border-top: 1px dashed rgb(2, 2, 2);
+        position: relative;
+        background-color: aliceblue;
+        border-bottom: 1px dashed black;
+}
+#Skills h1{
+    text-align: center;
+    font-size: 1.7rem;
+    display: inline-block;
+    margin-left: 46.0%;
+}
+
+
+.skill-container{
+    /* border: 1px solid black; */
+    margin: auto;
+    /* padding: 10px; */
+    height:55%;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skill-progress{
+    height: 2.7rem;
+    width: 14rem;
+    /* justify-content: space-between; */
+    margin: 30px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    /* align-items: center; */
+}
+
+.percent{
+    height: inherit;
+    width: 80%;
+    /* border: 1px solid red; */
+    border-radius: 20px 0px 0px 20px;
+    background-color:black;
+    border-color: black;
+}
+
+
+.skill-name span{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: .5rem; 
+    margin-left:1rem;
+    /* margin-top: 1.2rem; */
+    /* text-align: left; */
+    display: inline-block;
+    font-weight: 700;
+}
+
+
+
+/* --------------------------------------------------------- WORK EXPERIENCE----------------------------------- */
+
+.timeline{
+    position: relative;
+    width: 100vw;
+    border: 2px solid black;
+    margin-left: -1%;
+    background-image: linear-gradient(45deg, rgb(9, 242, 55), cyan 50%, rgb(51, 244, 77) 100%);
+}
+
+.timeline h1{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 2.0rem;
+    margin-left: 2%;
+}
+
+.timelineBox{
+    position: relative;
+    margin: 5%;
+    width: 35%;
+    left: 8%;
+    /* bottom: 5%; */
+    min-height: 250px;
+    /* border: 2px solid black;     */
+    /* background-color: white; */
+}
+
+.timelineBox:nth-child(2n+1){
+    left: 47.5%;
+}
+
+.timeline-divided{
+    position: absolute;
+    height: 60%;
+    width: 0;
+    border: 3px dashed rgb(92, 221, 246);
+    top: 20%;
+    left: 50%;
+    /* margin-top: -31%; */
+}
+
+
+.time-travaller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(180deg);
+    z-index:2;
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    margin-left: -19.5px;
+}
+
+.timelineBox:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 41%;
+    right: -7.1%;
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    background-color: red;
+    z-index: 1;
+    box-shadow: 0px 0px .7px .9px;
+}
+
+.timelineBox:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -7.7%;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: .8rem;
+    background-color: red;
+    z-index: 1;
+    box-shadow: 0px 0px .7px .9px;;
+}
+
+.timeline-box{
+    height: 300px;
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5%;
+    align-items: center; 
+    display: inline-block;
+    margin-left: 5%;
+    line-height: 1.5rem;
+    background-color: white;
+}
+
+.timeline-box img{
+    display: inline-block;
+    height:40%; 
+    width:40%;
+    margin: 0%;
+    
+}
+
+
+.timeline-box h3{
+    text-align: right;
+    margin-top: -18%;
+    font-size: 30px;
+    color: burlywood;
+}
+
+.timeline-box h4{
+    text-align: right;
+    margin-top: -4%;
+    font-size: 25px;
+    color: rosybrown;
+}
+
+.timeline-box h5{
+    text-align: right;
+    margin-top: -4%;
+    font-size: 20px;
+    color: red;
+}
+
+.timeline-box p{
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: 0px;
+    /* word-spacing: 1px; */
+    font-size: 20px;
+}
+
+
+
+
+/* ----------------------------------------------------- EDUCATION------------------------ */
+
+.timeline-edu{
+    position: relative;
+    width: 100vw;
+    border: 1px solid black;
+    /* margin: 0%; */
+    /* height: 77vh; */
+    /* display: inline-block; */
+    margin-left: -1%;
+    background-image: linear-gradient( 45deg, lightgreen 45%,rgb(0, 255, 247) 70%);
+}
+
+.timeline-edu h1{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 2.3rem;
+    
+    margin-left: 2%;
+}
+
+.timelineBox-edu{
+    position: relative;
+    margin: 5%;
+    width: 35%;
+    left: 8%;
+    /* bottom: 5%; */
+    min-height: 250px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    
+}
+
+.timelineBox-edu:nth-child(2n+1){
+    left: 47.5%;
+}
+
+.timeline-divided-edu{
+    position: absolute;
+    height: 60%;
+    width: 0;
+    border: 3px dashed rgb(92, 221, 246);
+    top: 22%;
+    left: 50%;
+}
+
+
+.time-travaller-edu{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+    z-index:2;
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+    margin-left: -17px;
+}
+
+.timelineBox-edu:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -6.82%;
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    background-color: red;
+    z-index: 1;
+    box-shadow: 0px 0px .7px .9px;
+}
+
+.timelineBox-edu:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -7.9%;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: .8rem;
+    background-color: red;
+    z-index: 1;
+    box-shadow: 0px 0px .7px .9px;;
+}
+
+.timeline-box-edu{
+    height: 300px;
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5%;
+    /* justify-content: center;
+    align-items: center; */
+    display: inline-block;
+    margin-left: 5%;
+    line-height: 1.5rem;
+}
+
+.timeline-box-edu img{
+    display: inline-block;
+    height:40%; 
+    width:40%;
+    margin: 0%;
+    
+}
+
+.timeline-box-edu h3{
+    /* display: inline-block; */
+    text-align: right;
+    margin-top: -18%;
+    font-size: 30px;
+    /* margin-left: 60%; */
+}
+
+.timeline-box-edu h4{
+    /* display: inline-block; */
+    text-align: right;
+    margin-top: -4%;
+    font-size: 25px;
+}
+
+.timeline-box-edu h5{
+    /* display: inline-block; */
+    text-align: right;
+    margin-top: -4%;
+    font-size: 20px;
+}
+
+.timeline-box-edu p{
+    display: inline-block;
+    margin-left: 9px;
+    margin-top: 0px;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+
+
+
+/* ------------------------------ Portfolio ------------------------ */
+
+
+#portfolio-box{
+    height: 85vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+
+
+.portfolio_timeline{
+    height:85vh;
+    width: 80vw;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* left: 400px; */
+    margin-left: 10%;
+}
+
+.portfolio_timeline h1{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+.portfolio_box1{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin: 1%;
+    margin-left: 2%;
+    margin-top: 5%;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+    background-size:  contain;
+    background-repeat: no-repeat;
+    /* background-size: 400px; */
+    background-position: center;
+}
+
+.portfolio_box2{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin: 1%;
+    margin-left: 2%;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 400px; */
+    background-position: center;
+}
+
+
+
+/* -------------------------------- Contact -------------------------------- */
+
+
+#contact-body{
+    height: 50vh;
+    width: 100vw;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: -1%;
+    background-color: azure;
+}
+
+#contact-body h3{
+    /* display: inline-block; */
+    text-align: center;
+    margin: 1%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: -15px;
+    
+}
+
+#divider{
+    height: 25vh;
+    width: 0;
+    border: 1px solid black;
+    margin-left: 50%;
+}
+
+.input input{
+    border-width: 0;
+    border-bottom-width: 2px;
+    width: 25rem;
+    display: inline-block;
+    line-height: 30px;
+    margin-top: 1%;
+    background-color: azure;
+}
+
+.input textarea{
+    margin: 15px;
+    margin-left: 45px;
+    /* text-align: first; */
+    margin-top: 1%;   
+    border: 2px solid black;
+    background-color: azure;
+}
+
+form{
+    margin-top: -13.5%;
+    margin-left: 15%;
+}
+
+button{
+    margin-left: 10%;
+    margin-top: .25%;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+
+#get-in-touch{
+    height: 45%;
+    width: 25%;
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 62%;
+    margin-top: -14%;
+}
+
+#get-in-touch h4{
+    margin-top: -0.4%;
+    margin-left: 1%;
+    font-size: 24px;
+}
+
+#get-in-touch p{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-top: -4%;
+}
+
+#address{
+    height: 200px;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin-left: 62%;
+    margin-top: -7%;
+}
+
+#address #address-name{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+    /* text-decoration: underline; */
+
+}
+
+#address .footer {
+    margin-top: -3%;
+    margin-left: 1%;
+}
+#address .footer p{
+    font-size: 23px;
+    margin-top: 6%;
+    margin-left: 0px;
+}
+
+#navigator #social-footer li{
+    display: inline-block;
+    margin: 10px;
+    /* text-align: center; */
+    margin-left: 3%;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#navigator #social-footer{
+    margin-left: 32%;
+    margin-top: -1%;
+}
